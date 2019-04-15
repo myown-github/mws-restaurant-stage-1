@@ -106,7 +106,7 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  height: 50px;
+  height: 100%;
   background-color: #3397DB;
   align-items: center;
 }
@@ -129,6 +129,10 @@ nav h1 a {
   width: 200px;
 }
 
+/* select:focus {
+	background: #ccc;
+} */
+
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
@@ -136,6 +140,9 @@ nav h1 a {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #restaurants-list li {
   background-color: #fff;
