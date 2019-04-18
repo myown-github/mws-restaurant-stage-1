@@ -1,4 +1,4 @@
-//credit to https://matthewcranford.com
+//credit to matthewcranford
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js')
   .then(function() {
